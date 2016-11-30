@@ -15,7 +15,6 @@
 @property (strong, nonatomic) UILabel *contentLabel;
 @property (strong, nonatomic) UILabel *maskLabel;
 @property (strong, nonatomic) CAGradientLayer *maskLayer;
-@property (assign, nonatomic) BOOL isPlaying;               // 正在播放动画
 @property (assign, nonatomic) CGSize charSize;              // 文字 size
 @property (assign, nonatomic) CATransform3D startT, endT;   // 高亮移动范围 [startT, endT]
 @property (strong, nonatomic) CABasicAnimation *translate;  // 位移动画

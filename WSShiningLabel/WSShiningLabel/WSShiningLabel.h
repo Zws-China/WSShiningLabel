@@ -33,6 +33,7 @@ typedef enum : NSUInteger {
 @property (assign, nonatomic) CGFloat shimmerRadius;            // 闪烁半径，默认20
 @property (strong, nonatomic) UIColor *shimmerColor;            // 闪烁颜色，默认白
 @property (assign, nonatomic) NSTimeInterval durationTime;      // 持续时间，默认2秒
+@property (assign, nonatomic) BOOL isPlaying;               // 正在播放动画
 
 - (void)startShimmer;   // 开始闪烁，闪烁期间更改上面属性立即生效
 - (void)stopShimmer;    // 停止闪烁
